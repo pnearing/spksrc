@@ -7,7 +7,7 @@ PKG_DIR = $(PKG_NAME)-$(PKG_VERS)
 
 #https://github.com/pnearing/byobu/archive/refs/tags/v1.1.tar.gz
 
-DEPENDS = cross/ncursesw cross/screen
+DEPENDS = cross/ncursesw cross/screen cross/tmux
 
 HOMEPAGE = https://byobu.ort
 COMMENT  = Byobu is a GPLv3 open source text-based window manager and terminal multiplexer. 
