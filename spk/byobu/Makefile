@@ -16,7 +16,7 @@ CHANGELOG = "Initial build."
 HOMEPAGE = https://byobu.org
 LICENSE  = GPLv3
 
-WIZARDS_DIR = src/wizard/
+#WIZARDS_DIR = src/wizard/
 
 #SERVICE_USER = auto
 #SERVICE_WIZARD_SHARE = wizard_download_dir
