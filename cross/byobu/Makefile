@@ -1,11 +1,11 @@
 PKG_NAME = byobu
-PKG_VERS = 1.0
+PKG_VERS = 1.1
 PKG_EXT = tar.gz
 PKG_DIST_NAME = v$(PKG_VERS).$(PKG_EXT)
 PKG_DIST_SITE = https://github.com/pnearing/byobu/archive/refs/tags/
 PKG_DIR = $(PKG_NAME)-$(PKG_VERS)
 
-
+#https://github.com/pnearing/byobu/archive/refs/tags/v1.1.tar.gz
 
 DEPENDS = cross/ncursesw
 
