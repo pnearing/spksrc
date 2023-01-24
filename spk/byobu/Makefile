@@ -1,7 +1,7 @@
 SPK_NAME = byobu
 SPK_VERS = 1.1
 SPK_REV = 00
-SPK_ICON = src/terminal.jpg
+SPK_ICON = src/byobu.png
 
 DEPENDS = cross/$(SPK_NAME) cross/screen
 
