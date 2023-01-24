@@ -5,8 +5,8 @@ SPK_ICON = src/terminal.jpg
 
 DEPENDS = cross/$(SPK_NAME)
 
-MAINTAINER = Peter Nearing
-DESCRIPTION = Byobu is a GPLv3 open source text-based window manager and terminal multiplexer. 
+MAINTAINER = "Peter Nearing"
+DESCRIPTION = "Byobu is a GPLv3 open source text-based window manager and terminal multiplexer."
 #DESCRIPTION_FRE = Transmission est un client BitTorrent simple et rapide. Vous pouvez le contrôler à distance grâce à son interface web ou des applications dédiées.
 #DESCRIPTION_SPN = Transmission es un cliente BitTorrent simple y rápido. Puedes controlarlo remotamente mediante su interfaz web o alguna aplicación dedicada.
 STARTABLE = no
