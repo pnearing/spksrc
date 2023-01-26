@@ -3,7 +3,7 @@ SPK_VERS = 1.1
 SPK_REV = 00
 SPK_ICON = src/byobu.png
 
-DEPENDS = cross/$(SPK_NAME) cross/screen
+DEPENDS = cross/$(SPK_NAME) cross/screen cross/tmux
 
 MAINTAINER = Peter_Nearing
 DESCRIPTION = "Byobu is a GPLv3 open source text-based window manager and terminal multiplexer."
@@ -17,7 +17,7 @@ CHANGELOG = "Initial build."
 HOMEPAGE = https://byobu.org
 LICENSE  = GPLv3
 
-SPK_COMMANDS = bin/byobu bin/byobu-config bin/byobu-ctrl-a bin/byobu-disable bin/byobu-disable-prompt bin/byobu-enable bin/byobu-enable-prompt bin/byobu-export bin/byobu-janitor bin/byobu-keybindings bin/byobu-launch bin/byobu-launcher bin/byobu-launcher-install bin/byobu-launcher-uninstall bin/byobu-layout bin/byobu-prompt bin/byobu-quiet bin/byobu-reconnect-sockets bin/byobu-screen bin/byobu-select-backend bin/byobu-select-profile bin/byobu-select-session bin/byobu-shell bin/byobu-silent bin/byobu-status bin/byobu-status-detail bin/byobu-tmux bin/byobu-ugraph bin/byobu-ulevel bin/col1 bin/ctail bin/manifest bin/purge-old-kernels bin/vigpg bin/wifi-status
+SPK_COMMANDS = bin/byobu bin/byobu-config bin/byobu-ctrl-a bin/byobu-disable bin/byobu-disable-prompt bin/byobu-enable bin/byobu-enable-prompt bin/byobu-export bin/byobu-janitor bin/byobu-keybindings bin/byobu-launch bin/byobu-launcher bin/byobu-launcher-install bin/byobu-launcher-uninstall bin/byobu-layout bin/byobu-prompt bin/byobu-quiet bin/byobu-reconnect-sockets bin/byobu-screen bin/byobu-select-backend bin/byobu-select-profile bin/byobu-select-session bin/byobu-shell bin/byobu-silent bin/byobu-status bin/byobu-status-detail bin/byobu-tmux bin/byobu-ugraph bin/byobu-ulevel bin/col1 bin/ctail bin/manifest bin/purge-old-kernels bin/vigpg bin/wifi-status bin/screen bin/tmux
 
 SPK_USR_LOCAL_LINKS  = bin:bin/byobu
 SPK_USR_LOCAL_LINKS += bin:bin/byobu-config
@@ -54,6 +54,7 @@ SPK_USR_LOCAL_LINKS += bin:bin/manifest
 SPK_USR_LOCAL_LINKS += bin:bin/purge-old-kernels
 SPK_USR_LOCAL_LINKS += bin:bin/vigpg
 SPK_USR_LOCAL_LINKS += bin:bin/wifi-status
-
+SPK_USR_LOCAL_LINKS += bin:bin/screen
+SPK_USR_LOCAL_LINKS += bin:bin/tmux
 include ../../mk/spksrc.spk.mk
 
