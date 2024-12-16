@@ -1,7 +1,7 @@
 # Wheels that absolutely needs
 # to be managed as pure-python
 feedparser==6.0.10
-configobj==5.0.6
+configobj==5.0.9
 cheroot==8.6.0
 cherrypy==18.8.0
 jaraco.functools==3.5.2
