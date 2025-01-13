@@ -37,7 +37,7 @@ olefile==0.46
 
 # General support
 six==1.16.0
-virtualenv==16.7.10
+virtualenv==20.26.6
 
 # Cheetah dependency
 markdown==3.1.1
